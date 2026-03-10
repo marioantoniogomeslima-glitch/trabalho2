@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,10 +36,20 @@
                 <td>Administrador</td>
                 <td><span class="badge ativo">Ativo</span></td>
                 <td>
-                    <button class="btn-icon">
-                        <i class="fa-solid fa-pen"></i>
-                    </button>
-                </td>
+                    
+    <button class="btn-icon">
+        <i class="fa-solid fa-eye"></i>
+    </button>
+
+    <button class="btn-icon">
+        <i class="fa-solid fa-pen"></i>
+    </button>
+
+    <button class="btn-icon">
+        <i class="fa-solid fa-trash"></i>
+    </button>
+
+                
             </tr>
 
             <tr>
@@ -48,7 +58,19 @@
                 <td>ana.souza@email.com</td>
                 <td>Editor</td>
                 <td>Ativo</td>
-                <td>Editar</td>
+            <td>
+    <button class="btn-icon">
+        <i class="fa-solid fa-eye"></i>
+    </button>
+
+    <button class="btn-icon">
+        <i class="fa-solid fa-pen"></i>
+    </button>
+
+    <button class="btn-icon">
+        <i class="fa-solid fa-trash"></i>
+    </button>
+</td>
             </tr>
         </tbody>
     </table>
