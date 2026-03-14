@@ -19,6 +19,7 @@ nav{
 
     display: flex;
     flex-direction: column;
+     height: 100vh;
 
 
 
@@ -160,6 +161,16 @@ tbody tr:hover{
     background-color:  #f1f1f1;
 
 }
+.badge{
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.ativo {background-color: #d4edda; color: #155724}
+.inativo{background-color: #f8d7da; color: #721c24;}
 
 .btn-icon{
     background: none;
@@ -169,6 +180,16 @@ tbody tr:hover{
     font-size: 16px;
 
 }
+/*botão adicionar usuarios*/
+.btn-novo{
+    padding: 10px 15px;
+    background-color: #27ae60;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
+
 
 
 

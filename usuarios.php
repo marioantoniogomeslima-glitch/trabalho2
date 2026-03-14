@@ -13,20 +13,7 @@
 <div class="dashboard-container">
 
 <!-- Menu lateral -->
-<nav>
-<ul>
-<li><a href="#">Início</a></li>
-<li><a href="#">Projetos</a></li>
-<li><a href="#">Relatórios</a></li>
-<li><a href="#">Configurações</a></li>
-</ul>
-
-<div class="perfil-usuario">
-<img src="https://ui-avatars.com/api/?name=Mario+Antonio&background=008080&color=fff" alt="avatar">
-<span>Mario Antonio</span>
-</div>
-</nav>
-
+<?php include 'menu.php'; ?>
 <!-- Conteúdo principal -->
 <main>
 
@@ -34,12 +21,18 @@
 <h2>Gestão de usuários</h2>
 <p>Visualize e gerencia as permissões dos usuários do sistema.</p>
 </div>
+<div style="text-align: right;">
+    <a href="cad-usuarios.php" class="btn-novo">
+<i class="fa-solid fa-user-plus"></i> Cadastrar novo usuário
+
+</a>
 
 <div class="table-responsive">
 <table>
 
 <thead>
 <tr>
+
 <th>ID</th>
 <th>Nome</th>
 <th>E-mail</th>
@@ -80,7 +73,7 @@
 <td>Ana Souza</td>
 <td>ana.souza@email.com</td>
 <td>Editor</td>
-<td>Ativo</td>
+<td><span class="badge ativo">Ativo</span></td>
 
 <td>
 
@@ -98,6 +91,29 @@
 
 </td>
 
+
+</tr>
+<tr>
+<td>03</td>
+<td>Carlos Lima</td>
+<td>carlos.lima@gmail.com</td>
+<td>Usuário</td>
+<td><span class="badge inativo">inativo</span></td>
+<td>
+
+<button class="btn-icon">
+<i class="fa-solid fa-eye"></i>
+</button>
+
+<button class="btn-icon">
+<i class="fa-solid fa-pen"></i>
+</button>
+
+<button class="btn-icon">
+<i class="fa-solid fa-trash"></i>
+</button>
+
+</td>
 </tr>
 
 </tbody>
@@ -109,9 +125,6 @@
 </div>
 
 <!-- Rodapé -->
-<footer>
-<p>&copy; <?php echo date('Y'); ?> - desenvolvido na aula de web I</p>
-</footer>
-
+<?php include 'footer.php'; ?>
 </body>
 </html>

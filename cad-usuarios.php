@@ -13,19 +13,7 @@
 <div class="dashboard-container">
 
 
-<nav>
-<ul>
-<li><a href="#">Início</a></li>
-<li><a href="#">Projetos</a></li>
-<li><a href="#">Relatórios</a></li>
-<li><a href="#">Configurações</a></li>
-</ul>
-
-<div class="perfil-usuario">
-<img src="https://ui-avatars.com/api/?name=Mario+Antonio&background=008080&color=fff" alt="avatar">
-<span>Mario Antonio</span>
-</div>
-</nav>
+<?php include 'menu.php'; ?>
 
 
 <main>
@@ -41,7 +29,7 @@
 
 <div class="form-group">
 <label for="nome">Nome Completo</label>
-<input type="text" id="nome" name="nome" placeholder="Ex: Eric Freitas" required>
+<input type="text" id="nome" name="nome" placeholder="Ex: Nome Completo" required>
 </div>
 
 <div class="form-group">
@@ -80,9 +68,6 @@
 </main>
 </div>
 
-<footer>
-<p>&copy; <?php echo date('Y'); ?> - desenvolvido na aula de web I</p>
-</footer>
-
+<?php include 'footer.php'; ?>
 </body>
 </html>
